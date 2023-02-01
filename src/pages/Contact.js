@@ -38,20 +38,20 @@ const Contact = () => {
           <div className="address">
             <div className="content">
               <h4>adresse</h4>
-              <p>12 rue Laplace</p>
-              <p>64200 Biarritz</p>
+              <p>46 rue de l'angle</p>
+              <p>67000 Steasbourg</p>
             </div>
           </div>
           <div className="phone">
             <div className="content">
               <h4>téléphone</h4>
-              <CopyToClipboard text="0642844284" className="hover">
+              <CopyToClipboard text="0617244251" className="hover">
                 <p
                   style={{ cursor: "pointer" }}
                   className="clipboard"
                   onClick={() => alert("Téléphone copié !")}
                 >
-                  06 42 84 42 84
+                  06 17 24 4 251
                 </p>
               </CopyToClipboard>
             </div>
@@ -65,14 +65,14 @@ const Contact = () => {
                   className="clipboard"
                   onClick={() => alert("Email copié !")}
                 >
-                  fsagency@gmail.com
+                  contact@lcagency.com
                 </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>From Scratch - 2022</p>
+            <p>LC - 2022</p>
           </div>
         </div>
         <Buttons left={"/projet-4"} />
